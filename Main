@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        ArraysOperations arraysOperations = new ArraysOperations();
+        Scanner scanner = new Scanner(System.in);
+
+        arraysOperations.generarArrayUno();
+        arraysOperations.generarArrayDos(scanner);
+        arraysOperations.generarProducto();
+        arraysOperations.generarResta();
+        arraysOperations.generarParImpar();
+        arraysOperations.generarMatriz();
+
+        scanner.close();
+    }
+}
+
